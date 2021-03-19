@@ -115,7 +115,7 @@ It may seem unusual to see the explicit type `MyValue<String>` here as [type inf
 var Test = function() { };
 Test.main = function() {
 	var a = new MyValue_String("Hello");
-	var b = new MyValue_Int(5);
+	var b = new MyValue_Int(42);
 };
 var MyValue_Int = function(value) {
 	this.value = value;
